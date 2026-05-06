@@ -1,0 +1,640 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.pfe:fleet-management >----------------------
+[INFO] Building fleet-management 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ fleet-management ---
+[INFO] Deleting c:\Users\Lenovo\Documents\vehicle-fleet-management-system-back\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ fleet-management ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ fleet-management ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 89 source files with javac [debug parameters release 21] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/Pfe1Application.java:[25,34] cannot find symbol
+  symbol:   method builder()
+  location: class com.bank.pfe1.entity.User
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/config/DataInitializer.java:[75,31] cannot find symbol
+  symbol:   method builder()
+  location: class com.bank.pfe1.entity.AppRole
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/config/DataInitializer.java:[82,49] cannot find symbol
+  symbol:   method builder()
+  location: class com.bank.pfe1.entity.RolePermission
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/AuditLogService.java:[24,32] cannot find symbol
+  symbol:   method builder()
+  location: class com.bank.pfe1.entity.AuditLog
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/controller/AuthController.java:[26,58] cannot find symbol
+  symbol:   method getUsername()
+  location: variable request of type com.bank.pfe1.dto.LoginRequest
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/controller/AuthController.java:[30,45] cannot find symbol
+  symbol:   method getPassword()
+  location: variable request of type com.bank.pfe1.dto.LoginRequest
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/controller/AuthController.java:[30,65] cannot find symbol
+  symbol:   method getPassword()
+  location: variable user of type com.bank.pfe1.entity.User
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/controller/AuthController.java:[35,18] cannot find symbol
+  symbol:   method isActive()
+  location: variable user of type com.bank.pfe1.entity.User
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/controller/AuthController.java:[40,50] cannot find symbol
+  symbol:   method getUsername()
+  location: variable user of type com.bank.pfe1.entity.User
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/controller/AuthController.java:[40,70] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.bank.pfe1.entity.User
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/controller/AuthController.java:[46,21] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.bank.pfe1.entity.User
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/controller/AuthController.java:[45,21] cannot find symbol
+  symbol:   method getUsername()
+  location: variable user of type com.bank.pfe1.entity.User
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/BrandService.java:[20,52] cannot find symbol
+  symbol:   method getBrandName()
+  location: variable brand of type com.bank.pfe1.entity.Brand
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/BrandService.java:[29,35] cannot find symbol
+  symbol:   method getBrandName()
+  location: variable updated of type com.bank.pfe1.entity.Brand
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/BrandService.java:[30,33] cannot find symbol
+  symbol:   method getCountry()
+  location: variable updated of type com.bank.pfe1.entity.Brand
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/CartNaftalService.java:[31,17] cannot find symbol
+  symbol:   method getDriver()
+  location: variable cart of type com.bank.pfe1.entity.CartNaftal
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/CartNaftalService.java:[31,45] cannot find symbol
+  symbol:   method getDriver()
+  location: variable cart of type com.bank.pfe1.entity.CartNaftal
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/CartNaftalService.java:[32,59] cannot find symbol
+  symbol:   method getDriver()
+  location: variable cart of type com.bank.pfe1.entity.CartNaftal
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/CartNaftalService.java:[34,17] cannot find symbol
+  symbol:   method setDriver(com.bank.pfe1.entity.Driver)
+  location: variable cart of type com.bank.pfe1.entity.CartNaftal
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/CartNaftalService.java:[36,17] cannot find symbol
+  symbol:   method getVehicle()
+  location: variable cart of type com.bank.pfe1.entity.CartNaftal
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/CartNaftalService.java:[36,46] cannot find symbol
+  symbol:   method getVehicle()
+  location: variable cart of type com.bank.pfe1.entity.CartNaftal
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/CartNaftalService.java:[37,62] cannot find symbol
+  symbol:   method getVehicle()
+  location: variable cart of type com.bank.pfe1.entity.CartNaftal
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/CartNaftalService.java:[39,17] cannot find symbol
+  symbol:   method setVehicle(com.bank.pfe1.entity.Vehicle)
+  location: variable cart of type com.bank.pfe1.entity.CartNaftal
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/CartNaftalService.java:[41,13] cannot find symbol
+  symbol:   method setActive(boolean)
+  location: variable cart of type com.bank.pfe1.entity.CartNaftal
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/CartNaftalService.java:[49,13] cannot find symbol
+  symbol:   method setDriver(com.bank.pfe1.entity.Driver)
+  location: variable cart of type com.bank.pfe1.entity.CartNaftal
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/CartNaftalService.java:[50,13] cannot find symbol
+  symbol:   method setVehicle(<nulltype>)
+  location: variable cart of type com.bank.pfe1.entity.CartNaftal
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/CartNaftalService.java:[59,13] cannot find symbol
+  symbol:   method setVehicle(com.bank.pfe1.entity.Vehicle)
+  location: variable cart of type com.bank.pfe1.entity.CartNaftal
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/CartNaftalService.java:[60,13] cannot find symbol
+  symbol:   method setDriver(<nulltype>)
+  location: variable cart of type com.bank.pfe1.entity.CartNaftal
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/CartNaftalService.java:[66,29] cannot find symbol
+  symbol:   method isActive()
+  location: variable cart of type com.bank.pfe1.entity.CartNaftal
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/controller/DashboardController.java:[57,22] invalid method reference
+  cannot find symbol
+    symbol:   method getCost()
+    location: class com.bank.pfe1.entity.Maintenance
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/controller/DashboardController.java:[69,22] invalid method reference
+  cannot find symbol
+    symbol:   method getFuelAmount()
+    location: class com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/DriverService.java:[31,15] cannot find symbol
+  symbol:   method setEmployeeType(java.lang.String)
+  location: variable driver of type com.bank.pfe1.entity.Driver
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/DriverService.java:[33,19] cannot find symbol
+  symbol:   method getLicenseNumber()
+  location: variable driver of type com.bank.pfe1.entity.Driver
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/DriverService.java:[34,62] cannot find symbol
+  symbol:   method getLicenseNumber()
+  location: variable driver of type com.bank.pfe1.entity.Driver
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/DriverService.java:[37,50] cannot find symbol
+  symbol:   method getEmail()
+  location: variable driver of type com.bank.pfe1.entity.Driver
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/DriverService.java:[39,50] cannot find symbol
+  symbol:   method getPhone()
+  location: variable driver of type com.bank.pfe1.entity.Driver
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/DriverService.java:[48,36] cannot find symbol
+  symbol:   method getFirstName()
+  location: variable updated of type com.bank.pfe1.entity.Driver
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/DriverService.java:[49,35] cannot find symbol
+  symbol:   method getLastName()
+  location: variable updated of type com.bank.pfe1.entity.Driver
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/DriverService.java:[50,32] cannot find symbol
+  symbol:   method getPhone()
+  location: variable updated of type com.bank.pfe1.entity.Driver
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/DriverService.java:[51,32] cannot find symbol
+  symbol:   method getEmail()
+  location: variable updated of type com.bank.pfe1.entity.Driver
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/DriverService.java:[52,34] cannot find symbol
+  symbol:   method getAddress()
+  location: variable updated of type com.bank.pfe1.entity.Driver
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/DriverService.java:[53,38] cannot find symbol
+  symbol:   method getDateOfBirth()
+  location: variable updated of type com.bank.pfe1.entity.Driver
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/DriverService.java:[54,40] cannot find symbol
+  symbol:   method getLicenseNumber()
+  location: variable updated of type com.bank.pfe1.entity.Driver
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/DriverService.java:[55,40] cannot find symbol
+  symbol:   method getLicenseExpiry()
+  location: variable updated of type com.bank.pfe1.entity.Driver
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/DriverService.java:[56,39] cannot find symbol
+  symbol:   method getOrganization()
+  location: variable updated of type com.bank.pfe1.entity.Driver
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[41,21] cannot find symbol
+  symbol:   method getEmployeeType()
+  location: variable employee of type com.bank.pfe1.entity.Employee
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[42,21] cannot find symbol
+  symbol:   method setEmployeeType(java.lang.String)
+  location: variable employee of type com.bank.pfe1.entity.Employee
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[50,38] cannot find symbol
+  symbol:   method getFirstName()
+  location: variable updated of type com.bank.pfe1.entity.Employee
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[51,37] cannot find symbol
+  symbol:   method getLastName()
+  location: variable updated of type com.bank.pfe1.entity.Employee
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[52,34] cannot find symbol
+  symbol:   method getPhone()
+  location: variable updated of type com.bank.pfe1.entity.Employee
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[53,34] cannot find symbol
+  symbol:   method getEmail()
+  location: variable updated of type com.bank.pfe1.entity.Employee
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[54,36] cannot find symbol
+  symbol:   method getAddress()
+  location: variable updated of type com.bank.pfe1.entity.Employee
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[55,40] cannot find symbol
+  symbol:   method getDateOfBirth()
+  location: variable updated of type com.bank.pfe1.entity.Employee
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[56,41] cannot find symbol
+  symbol:   method getEmployeeType()
+  location: variable updated of type com.bank.pfe1.entity.Employee
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[57,41] cannot find symbol
+  symbol:   method getOrganization()
+  location: variable updated of type com.bank.pfe1.entity.Employee
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[62,50] cannot find symbol
+  symbol:   method getLicenseNumber()
+  location: variable updatedDriver of type com.bank.pfe1.entity.Driver
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[63,50] cannot find symbol
+  symbol:   method getLicenseExpiry()
+  location: variable updatedDriver of type com.bank.pfe1.entity.Driver
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[80,37] cannot find symbol
+  symbol:   method getEmployeeType()
+  location: variable employee of type com.bank.pfe1.entity.Employee
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[88,20] cannot find symbol
+  symbol:   method getStatus()
+  location: variable vehicle of type com.bank.pfe1.entity.Vehicle
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[96,17] cannot find symbol
+  symbol:   method setCurrentlyAssignedVehicle(com.bank.pfe1.entity.Vehicle)
+  location: variable employee of type com.bank.pfe1.entity.Employee
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[97,17] cannot find symbol
+  symbol:   method setVehicleAssignedAt(java.time.LocalDateTime)
+  location: variable employee of type com.bank.pfe1.entity.Employee
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[98,17] cannot find symbol
+  symbol:   method setVehicleRemovedAt(<nulltype>)
+  location: variable employee of type com.bank.pfe1.entity.Employee
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[101,16] cannot find symbol
+  symbol:   method setStatus(com.bank.pfe1.entity.VehicleStatus)
+  location: variable vehicle of type com.bank.pfe1.entity.Vehicle
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[102,16] cannot find symbol
+  symbol:   method setAssignedTo(com.bank.pfe1.entity.Employee)
+  location: variable vehicle of type com.bank.pfe1.entity.Vehicle
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[103,16] cannot find symbol
+  symbol:   method setAssignedAt(java.time.LocalDateTime)
+  location: variable vehicle of type com.bank.pfe1.entity.Vehicle
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[113,35] cannot find symbol
+  symbol:   method getCurrentlyAssignedVehicle()
+  location: variable employee of type com.bank.pfe1.entity.Employee
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[119,20] cannot find symbol
+  symbol:   method setStatus(com.bank.pfe1.entity.VehicleStatus)
+  location: variable vehicle of type com.bank.pfe1.entity.Vehicle
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[120,20] cannot find symbol
+  symbol:   method setAssignedTo(<nulltype>)
+  location: variable vehicle of type com.bank.pfe1.entity.Vehicle
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[124,17] cannot find symbol
+  symbol:   method setCurrentlyAssignedVehicle(<nulltype>)
+  location: variable employee of type com.bank.pfe1.entity.Employee
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[125,17] cannot find symbol
+  symbol:   method setVehicleRemovedAt(java.time.LocalDateTime)
+  location: variable employee of type com.bank.pfe1.entity.Employee
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/ManageService.java:[23,15] cannot find symbol
+  symbol:   method setEmployee(com.bank.pfe1.entity.Employee)
+  location: variable manage of type com.bank.pfe1.entity.Manage
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/ManageService.java:[24,15] cannot find symbol
+  symbol:   method setVehicle(com.bank.pfe1.entity.Vehicle)
+  location: variable manage of type com.bank.pfe1.entity.Manage
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/ManageService.java:[25,15] cannot find symbol
+  symbol:   method setAssignedAt(java.time.LocalDateTime)
+  location: variable manage of type com.bank.pfe1.entity.Manage
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/ManageService.java:[26,15] cannot find symbol
+  symbol:   method setNotes(java.lang.String)
+  location: variable manage of type com.bank.pfe1.entity.Manage
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/ManageService.java:[33,91] cannot find symbol
+  symbol:   method getId()
+  location: variable employee of type com.bank.pfe1.entity.Employee
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/ManageService.java:[36,19] cannot find symbol
+  symbol:   method setRemovedAt(java.time.LocalDateTime)
+  location: variable manage of type com.bank.pfe1.entity.Manage
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[29,15] cannot find symbol
+  symbol:   method setStatus(com.bank.pfe1.entity.CouponStatus)
+  location: variable coupon of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[30,15] cannot find symbol
+  symbol:   method setIssueDate(java.time.LocalDate)
+  location: variable coupon of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[38,41] cannot find symbol
+  symbol:   method getCouponNumber()
+  location: variable updated of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[39,39] cannot find symbol
+  symbol:   method getFuelAmount()
+  location: variable updated of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[40,38] cannot find symbol
+  symbol:   method getIssueDate()
+  location: variable updated of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[41,35] cannot find symbol
+  symbol:   method getStatus()
+  location: variable updated of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[42,35] cannot find symbol
+  symbol:   method getDriver()
+  location: variable updated of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[43,41] cannot find symbol
+  symbol:   method getAssignedDate()
+  location: variable updated of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[44,37] cannot find symbol
+  symbol:   method getUsedDate()
+  location: variable updated of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[45,42] cannot find symbol
+  symbol:   method getTransferredTo()
+  location: variable updated of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[46,41] cannot find symbol
+  symbol:   method getTransferDate()
+  location: variable updated of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[60,19] cannot find symbol
+  symbol:   method getStatus()
+  location: variable coupon of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[61,107] cannot find symbol
+  symbol:   method getStatus()
+  location: variable coupon of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[67,15] cannot find symbol
+  symbol:   method setDriver(com.bank.pfe1.entity.Driver)
+  location: variable coupon of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[68,15] cannot find symbol
+  symbol:   method setStatus(com.bank.pfe1.entity.CouponStatus)
+  location: variable coupon of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[69,15] cannot find symbol
+  symbol:   method setAssignedDate(java.time.LocalDate)
+  location: variable coupon of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[78,19] cannot find symbol
+  symbol:   method getStatus()
+  location: variable coupon of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[82,15] cannot find symbol
+  symbol:   method setTransferredTo(java.lang.String)
+  location: variable coupon of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[83,15] cannot find symbol
+  symbol:   method setTransferDate(java.time.LocalDate)
+  location: variable coupon of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[84,15] cannot find symbol
+  symbol:   method setStatus(com.bank.pfe1.entity.CouponStatus)
+  location: variable coupon of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[85,15] cannot find symbol
+  symbol:   method setDriver(<nulltype>)
+  location: variable coupon of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[94,19] cannot find symbol
+  symbol:   method getStatus()
+  location: variable coupon of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[98,15] cannot find symbol
+  symbol:   method setStatus(com.bank.pfe1.entity.CouponStatus)
+  location: variable coupon of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[99,15] cannot find symbol
+  symbol:   method setUsedDate(java.time.LocalDate)
+  location: variable coupon of type com.bank.pfe1.entity.GasCoupon
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.957 s
+[INFO] Finished at: 2026-04-27T07:45:46+01:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (default-compile) on project fleet-management: Compilation failure: Compilation failure: 
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/Pfe1Application.java:[25,34] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.bank.pfe1.entity.User
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/config/DataInitializer.java:[75,31] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.bank.pfe1.entity.AppRole
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/config/DataInitializer.java:[82,49] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.bank.pfe1.entity.RolePermission
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/AuditLogService.java:[24,32] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.bank.pfe1.entity.AuditLog
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/controller/AuthController.java:[26,58] cannot find symbol
+[ERROR]   symbol:   method getUsername()
+[ERROR]   location: variable request of type com.bank.pfe1.dto.LoginRequest
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/controller/AuthController.java:[30,45] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable request of type com.bank.pfe1.dto.LoginRequest
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/controller/AuthController.java:[30,65] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable user of type com.bank.pfe1.entity.User
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/controller/AuthController.java:[35,18] cannot find symbol
+[ERROR]   symbol:   method isActive()
+[ERROR]   location: variable user of type com.bank.pfe1.entity.User
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/controller/AuthController.java:[40,50] cannot find symbol
+[ERROR]   symbol:   method getUsername()
+[ERROR]   location: variable user of type com.bank.pfe1.entity.User
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/controller/AuthController.java:[40,70] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.bank.pfe1.entity.User
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/controller/AuthController.java:[46,21] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.bank.pfe1.entity.User
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/controller/AuthController.java:[45,21] cannot find symbol
+[ERROR]   symbol:   method getUsername()
+[ERROR]   location: variable user of type com.bank.pfe1.entity.User
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/BrandService.java:[20,52] cannot find symbol
+[ERROR]   symbol:   method getBrandName()
+[ERROR]   location: variable brand of type com.bank.pfe1.entity.Brand
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/BrandService.java:[29,35] cannot find symbol
+[ERROR]   symbol:   method getBrandName()
+[ERROR]   location: variable updated of type com.bank.pfe1.entity.Brand
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/BrandService.java:[30,33] cannot find symbol
+[ERROR]   symbol:   method getCountry()
+[ERROR]   location: variable updated of type com.bank.pfe1.entity.Brand
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/CartNaftalService.java:[31,17] cannot find symbol
+[ERROR]   symbol:   method getDriver()
+[ERROR]   location: variable cart of type com.bank.pfe1.entity.CartNaftal
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/CartNaftalService.java:[31,45] cannot find symbol
+[ERROR]   symbol:   method getDriver()
+[ERROR]   location: variable cart of type com.bank.pfe1.entity.CartNaftal
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/CartNaftalService.java:[32,59] cannot find symbol
+[ERROR]   symbol:   method getDriver()
+[ERROR]   location: variable cart of type com.bank.pfe1.entity.CartNaftal
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/CartNaftalService.java:[34,17] cannot find symbol
+[ERROR]   symbol:   method setDriver(com.bank.pfe1.entity.Driver)
+[ERROR]   location: variable cart of type com.bank.pfe1.entity.CartNaftal
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/CartNaftalService.java:[36,17] cannot find symbol
+[ERROR]   symbol:   method getVehicle()
+[ERROR]   location: variable cart of type com.bank.pfe1.entity.CartNaftal
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/CartNaftalService.java:[36,46] cannot find symbol
+[ERROR]   symbol:   method getVehicle()
+[ERROR]   location: variable cart of type com.bank.pfe1.entity.CartNaftal
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/CartNaftalService.java:[37,62] cannot find symbol
+[ERROR]   symbol:   method getVehicle()
+[ERROR]   location: variable cart of type com.bank.pfe1.entity.CartNaftal
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/CartNaftalService.java:[39,17] cannot find symbol
+[ERROR]   symbol:   method setVehicle(com.bank.pfe1.entity.Vehicle)
+[ERROR]   location: variable cart of type com.bank.pfe1.entity.CartNaftal
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/CartNaftalService.java:[41,13] cannot find symbol
+[ERROR]   symbol:   method setActive(boolean)
+[ERROR]   location: variable cart of type com.bank.pfe1.entity.CartNaftal
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/CartNaftalService.java:[49,13] cannot find symbol
+[ERROR]   symbol:   method setDriver(com.bank.pfe1.entity.Driver)
+[ERROR]   location: variable cart of type com.bank.pfe1.entity.CartNaftal
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/CartNaftalService.java:[50,13] cannot find symbol
+[ERROR]   symbol:   method setVehicle(<nulltype>)
+[ERROR]   location: variable cart of type com.bank.pfe1.entity.CartNaftal
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/CartNaftalService.java:[59,13] cannot find symbol
+[ERROR]   symbol:   method setVehicle(com.bank.pfe1.entity.Vehicle)
+[ERROR]   location: variable cart of type com.bank.pfe1.entity.CartNaftal
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/CartNaftalService.java:[60,13] cannot find symbol
+[ERROR]   symbol:   method setDriver(<nulltype>)
+[ERROR]   location: variable cart of type com.bank.pfe1.entity.CartNaftal
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/CartNaftalService.java:[66,29] cannot find symbol
+[ERROR]   symbol:   method isActive()
+[ERROR]   location: variable cart of type com.bank.pfe1.entity.CartNaftal
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/controller/DashboardController.java:[57,22] invalid method reference
+[ERROR]   cannot find symbol
+[ERROR]     symbol:   method getCost()
+[ERROR]     location: class com.bank.pfe1.entity.Maintenance
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/controller/DashboardController.java:[69,22] invalid method reference
+[ERROR]   cannot find symbol
+[ERROR]     symbol:   method getFuelAmount()
+[ERROR]     location: class com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/DriverService.java:[31,15] cannot find symbol
+[ERROR]   symbol:   method setEmployeeType(java.lang.String)
+[ERROR]   location: variable driver of type com.bank.pfe1.entity.Driver
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/DriverService.java:[33,19] cannot find symbol
+[ERROR]   symbol:   method getLicenseNumber()
+[ERROR]   location: variable driver of type com.bank.pfe1.entity.Driver
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/DriverService.java:[34,62] cannot find symbol
+[ERROR]   symbol:   method getLicenseNumber()
+[ERROR]   location: variable driver of type com.bank.pfe1.entity.Driver
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/DriverService.java:[37,50] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable driver of type com.bank.pfe1.entity.Driver
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/DriverService.java:[39,50] cannot find symbol
+[ERROR]   symbol:   method getPhone()
+[ERROR]   location: variable driver of type com.bank.pfe1.entity.Driver
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/DriverService.java:[48,36] cannot find symbol
+[ERROR]   symbol:   method getFirstName()
+[ERROR]   location: variable updated of type com.bank.pfe1.entity.Driver
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/DriverService.java:[49,35] cannot find symbol
+[ERROR]   symbol:   method getLastName()
+[ERROR]   location: variable updated of type com.bank.pfe1.entity.Driver
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/DriverService.java:[50,32] cannot find symbol
+[ERROR]   symbol:   method getPhone()
+[ERROR]   location: variable updated of type com.bank.pfe1.entity.Driver
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/DriverService.java:[51,32] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable updated of type com.bank.pfe1.entity.Driver
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/DriverService.java:[52,34] cannot find symbol
+[ERROR]   symbol:   method getAddress()
+[ERROR]   location: variable updated of type com.bank.pfe1.entity.Driver
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/DriverService.java:[53,38] cannot find symbol
+[ERROR]   symbol:   method getDateOfBirth()
+[ERROR]   location: variable updated of type com.bank.pfe1.entity.Driver
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/DriverService.java:[54,40] cannot find symbol
+[ERROR]   symbol:   method getLicenseNumber()
+[ERROR]   location: variable updated of type com.bank.pfe1.entity.Driver
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/DriverService.java:[55,40] cannot find symbol
+[ERROR]   symbol:   method getLicenseExpiry()
+[ERROR]   location: variable updated of type com.bank.pfe1.entity.Driver
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/DriverService.java:[56,39] cannot find symbol
+[ERROR]   symbol:   method getOrganization()
+[ERROR]   location: variable updated of type com.bank.pfe1.entity.Driver
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[41,21] cannot find symbol
+[ERROR]   symbol:   method getEmployeeType()
+[ERROR]   location: variable employee of type com.bank.pfe1.entity.Employee
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[42,21] cannot find symbol
+[ERROR]   symbol:   method setEmployeeType(java.lang.String)
+[ERROR]   location: variable employee of type com.bank.pfe1.entity.Employee
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[50,38] cannot find symbol
+[ERROR]   symbol:   method getFirstName()
+[ERROR]   location: variable updated of type com.bank.pfe1.entity.Employee
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[51,37] cannot find symbol
+[ERROR]   symbol:   method getLastName()
+[ERROR]   location: variable updated of type com.bank.pfe1.entity.Employee
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[52,34] cannot find symbol
+[ERROR]   symbol:   method getPhone()
+[ERROR]   location: variable updated of type com.bank.pfe1.entity.Employee
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[53,34] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable updated of type com.bank.pfe1.entity.Employee
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[54,36] cannot find symbol
+[ERROR]   symbol:   method getAddress()
+[ERROR]   location: variable updated of type com.bank.pfe1.entity.Employee
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[55,40] cannot find symbol
+[ERROR]   symbol:   method getDateOfBirth()
+[ERROR]   location: variable updated of type com.bank.pfe1.entity.Employee
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[56,41] cannot find symbol
+[ERROR]   symbol:   method getEmployeeType()
+[ERROR]   location: variable updated of type com.bank.pfe1.entity.Employee
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[57,41] cannot find symbol
+[ERROR]   symbol:   method getOrganization()
+[ERROR]   location: variable updated of type com.bank.pfe1.entity.Employee
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[62,50] cannot find symbol
+[ERROR]   symbol:   method getLicenseNumber()
+[ERROR]   location: variable updatedDriver of type com.bank.pfe1.entity.Driver
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[63,50] cannot find symbol
+[ERROR]   symbol:   method getLicenseExpiry()
+[ERROR]   location: variable updatedDriver of type com.bank.pfe1.entity.Driver
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[80,37] cannot find symbol
+[ERROR]   symbol:   method getEmployeeType()
+[ERROR]   location: variable employee of type com.bank.pfe1.entity.Employee
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[88,20] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable vehicle of type com.bank.pfe1.entity.Vehicle
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[96,17] cannot find symbol
+[ERROR]   symbol:   method setCurrentlyAssignedVehicle(com.bank.pfe1.entity.Vehicle)
+[ERROR]   location: variable employee of type com.bank.pfe1.entity.Employee
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[97,17] cannot find symbol
+[ERROR]   symbol:   method setVehicleAssignedAt(java.time.LocalDateTime)
+[ERROR]   location: variable employee of type com.bank.pfe1.entity.Employee
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[98,17] cannot find symbol
+[ERROR]   symbol:   method setVehicleRemovedAt(<nulltype>)
+[ERROR]   location: variable employee of type com.bank.pfe1.entity.Employee
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[101,16] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.bank.pfe1.entity.VehicleStatus)
+[ERROR]   location: variable vehicle of type com.bank.pfe1.entity.Vehicle
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[102,16] cannot find symbol
+[ERROR]   symbol:   method setAssignedTo(com.bank.pfe1.entity.Employee)
+[ERROR]   location: variable vehicle of type com.bank.pfe1.entity.Vehicle
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[103,16] cannot find symbol
+[ERROR]   symbol:   method setAssignedAt(java.time.LocalDateTime)
+[ERROR]   location: variable vehicle of type com.bank.pfe1.entity.Vehicle
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[113,35] cannot find symbol
+[ERROR]   symbol:   method getCurrentlyAssignedVehicle()
+[ERROR]   location: variable employee of type com.bank.pfe1.entity.Employee
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[119,20] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.bank.pfe1.entity.VehicleStatus)
+[ERROR]   location: variable vehicle of type com.bank.pfe1.entity.Vehicle
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[120,20] cannot find symbol
+[ERROR]   symbol:   method setAssignedTo(<nulltype>)
+[ERROR]   location: variable vehicle of type com.bank.pfe1.entity.Vehicle
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[124,17] cannot find symbol
+[ERROR]   symbol:   method setCurrentlyAssignedVehicle(<nulltype>)
+[ERROR]   location: variable employee of type com.bank.pfe1.entity.Employee
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/EmployeeService.java:[125,17] cannot find symbol
+[ERROR]   symbol:   method setVehicleRemovedAt(java.time.LocalDateTime)
+[ERROR]   location: variable employee of type com.bank.pfe1.entity.Employee
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/ManageService.java:[23,15] cannot find symbol
+[ERROR]   symbol:   method setEmployee(com.bank.pfe1.entity.Employee)
+[ERROR]   location: variable manage of type com.bank.pfe1.entity.Manage
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/ManageService.java:[24,15] cannot find symbol
+[ERROR]   symbol:   method setVehicle(com.bank.pfe1.entity.Vehicle)
+[ERROR]   location: variable manage of type com.bank.pfe1.entity.Manage
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/ManageService.java:[25,15] cannot find symbol
+[ERROR]   symbol:   method setAssignedAt(java.time.LocalDateTime)
+[ERROR]   location: variable manage of type com.bank.pfe1.entity.Manage
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/ManageService.java:[26,15] cannot find symbol
+[ERROR]   symbol:   method setNotes(java.lang.String)
+[ERROR]   location: variable manage of type com.bank.pfe1.entity.Manage
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/ManageService.java:[33,91] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable employee of type com.bank.pfe1.entity.Employee
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/ManageService.java:[36,19] cannot find symbol
+[ERROR]   symbol:   method setRemovedAt(java.time.LocalDateTime)
+[ERROR]   location: variable manage of type com.bank.pfe1.entity.Manage
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[29,15] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.bank.pfe1.entity.CouponStatus)
+[ERROR]   location: variable coupon of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[30,15] cannot find symbol
+[ERROR]   symbol:   method setIssueDate(java.time.LocalDate)
+[ERROR]   location: variable coupon of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[38,41] cannot find symbol
+[ERROR]   symbol:   method getCouponNumber()
+[ERROR]   location: variable updated of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[39,39] cannot find symbol
+[ERROR]   symbol:   method getFuelAmount()
+[ERROR]   location: variable updated of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[40,38] cannot find symbol
+[ERROR]   symbol:   method getIssueDate()
+[ERROR]   location: variable updated of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[41,35] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable updated of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[42,35] cannot find symbol
+[ERROR]   symbol:   method getDriver()
+[ERROR]   location: variable updated of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[43,41] cannot find symbol
+[ERROR]   symbol:   method getAssignedDate()
+[ERROR]   location: variable updated of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[44,37] cannot find symbol
+[ERROR]   symbol:   method getUsedDate()
+[ERROR]   location: variable updated of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[45,42] cannot find symbol
+[ERROR]   symbol:   method getTransferredTo()
+[ERROR]   location: variable updated of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[46,41] cannot find symbol
+[ERROR]   symbol:   method getTransferDate()
+[ERROR]   location: variable updated of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[60,19] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable coupon of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[61,107] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable coupon of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[67,15] cannot find symbol
+[ERROR]   symbol:   method setDriver(com.bank.pfe1.entity.Driver)
+[ERROR]   location: variable coupon of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[68,15] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.bank.pfe1.entity.CouponStatus)
+[ERROR]   location: variable coupon of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[69,15] cannot find symbol
+[ERROR]   symbol:   method setAssignedDate(java.time.LocalDate)
+[ERROR]   location: variable coupon of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[78,19] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable coupon of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[82,15] cannot find symbol
+[ERROR]   symbol:   method setTransferredTo(java.lang.String)
+[ERROR]   location: variable coupon of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[83,15] cannot find symbol
+[ERROR]   symbol:   method setTransferDate(java.time.LocalDate)
+[ERROR]   location: variable coupon of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[84,15] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.bank.pfe1.entity.CouponStatus)
+[ERROR]   location: variable coupon of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[85,15] cannot find symbol
+[ERROR]   symbol:   method setDriver(<nulltype>)
+[ERROR]   location: variable coupon of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[94,19] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable coupon of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[98,15] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.bank.pfe1.entity.CouponStatus)
+[ERROR]   location: variable coupon of type com.bank.pfe1.entity.GasCoupon
+[ERROR] /c:/Users/Lenovo/Documents/vehicle-fleet-management-system-back/src/main/java/com/bank/pfe1/service/GasCouponService.java:[99,15] cannot find symbol
+[ERROR]   symbol:   method setUsedDate(java.time.LocalDate)
+[ERROR]   location: variable coupon of type com.bank.pfe1.entity.GasCoupon
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

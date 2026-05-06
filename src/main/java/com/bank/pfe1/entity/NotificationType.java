@@ -1,0 +1,18 @@
+package com.bank.pfe1.entity;
+
+public enum NotificationType {
+    MISSION,
+    MAINTENANCE,
+    BREAKDOWN,
+    EXPIRY,
+    MISSION_ENDING,
+    MISSION_COMPLETED,
+    MAINTENANCE_DUE,
+    TECHNICAL_CHECK_EXPIRING,
+    VEHICLE_BREAKDOWN,
+    GENERAL,
+    GAS_COUPON_ASSIGNED,
+    GAS_COUPON_USED,
+    GAS_COUPON_TRANSFERRED
+}
+
