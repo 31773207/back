@@ -8,9 +8,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
+import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/dashboard")
@@ -68,14 +67,14 @@ public class DashboardController {
         List<Maintenance> allMaintenance = maintenanceRepository.findAll();
         BigDecimal totalCost = allMaintenance.stream()
                 .map(Maintenance::getCost)
-                .reduce(BigDecimal.ZERO, (a, b) -> a.add(b));  // ✅ FIXED
+                .reduce(BigDecimal.ZERO, (a, b) -> a.add(b));
         stats.put("totalMaintenanceCost", totalCost);
 
         // MAINTENANCE COST THIS MONTH
         List<Maintenance> maintenanceThisMonth = maintenanceRepository.findByStartDateBetween(firstDayThisMonth, lastDayThisMonth);
         BigDecimal costThisMonth = maintenanceThisMonth.stream()
                 .map(Maintenance::getCost)
-                .reduce(BigDecimal.ZERO, (a, b) -> a.add(b));  // ✅ FIXED
+                .reduce(BigDecimal.ZERO, (a, b) -> a.add(b));
         stats.put("maintenanceCostThisMonth", costThisMonth);
 
         // GAS COUPON STATS
@@ -88,7 +87,7 @@ public class DashboardController {
         List<GasCoupon> usedCoupons = gasCouponRepository.findByStatus(CouponStatus.USED);
         BigDecimal totalFuel = usedCoupons.stream()
                 .map(GasCoupon::getFuelAmount)
-                .map(amount -> amount != null ? BigDecimal.valueOf(amount) : BigDecimal.ZERO)  // ✅ Double to BigDecimal conversion
+                .map(amount -> amount != null ? BigDecimal.valueOf(amount) : BigDecimal.ZERO)
                 .reduce(BigDecimal.ZERO, (a, b) -> a.add(b));
         stats.put("totalFuelUsed", totalFuel);
 
@@ -106,5 +105,36 @@ public class DashboardController {
         stats.put("vehicleUtilizationRate", Math.round(utilizationRate));
 
         return ResponseEntity.ok(stats);
+    }
+
+    @GetMapping("/driver-activity")
+    public ResponseEntity<List<Map<String, Object>>> getDriverActivity() {
+        List<Driver> allDrivers = driverRepository.findAll();
+
+        List<Map<String, Object>> result = allDrivers.stream().map(driver -> {
+            Map<String, Object> map = new HashMap<>();
+
+            map.put("driverId",      driver.getId());
+            map.put("driverName",    driver.getFirstName() + " " + driver.getLastName());
+            map.put("phone",         driver.getPhone());
+            map.put("status",        driver.getEmployeeStatus() != null
+                                         ? driver.getEmployeeStatus().name()
+                                         : "UNKNOWN");
+            map.put("licenseNumber", driver.getLicenseNumber());
+            map.put("licenseExpiry", driver.getLicenseExpiry());
+
+            // Count all missions for this driver
+            List<Mission> driverMissions = missionRepository.findByDriverId(driver.getId());
+            long completed = driverMissions.stream()
+                    .filter(m -> m.getStatus() == MissionStatus.COMPLETED)
+                    .count();
+
+            map.put("totalMissions",     driverMissions.size());
+            map.put("completedMissions", completed);
+
+            return map;
+        }).collect(Collectors.toList());
+
+        return ResponseEntity.ok(result);
     }
 }

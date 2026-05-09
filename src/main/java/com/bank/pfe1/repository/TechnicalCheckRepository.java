@@ -11,10 +11,13 @@ import java.util.List;
 public interface TechnicalCheckRepository extends JpaRepository<TechnicalCheck, Long> {
     List<TechnicalCheck> findByVehicleId(Long vehicleId);
     List<TechnicalCheck> findByStatus(TechnicalCheckStatus status);
-
-
     List<TechnicalCheck> findByExpiryDateBetween(LocalDate from, LocalDate to);
-
-
     List<TechnicalCheck> findByExpiryDateBefore(LocalDate date);
+
+    // ── FIX: used by getExpiringSoon() to only return VALID checks ──
+    List<TechnicalCheck> findByStatusAndExpiryDateBetween(
+            TechnicalCheckStatus status,
+            LocalDate from,
+            LocalDate to
+    );
 }
