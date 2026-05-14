@@ -255,11 +255,16 @@ public class Vehicle {
     @Column(name = "technical_check_expiry")
     private LocalDate technicalCheckExpiry;
 
+    // Inspection center for technical check (CT center)
+    @Column(name = "inspection_center")
+    private String inspectionCenter;
+
     // Vehicle configuration
     @Column(name = "engine_type")
     private String engineType; // PETROL, DIESEL, ELECTRIC, HYBRID
 
     @Column(name = "oil_type")
     private String oilType; // CONVENTIONAL, SYNTHETIC, SYNTHETIC_BLEND
+
 
 }
